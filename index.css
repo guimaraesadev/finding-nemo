@@ -1,0 +1,132 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+/* CSS para: Intro Page */
+
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Rubik+Puddles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400;0,500;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+header {
+    text-align: center;
+}
+
+.bg {
+    background-image: url(assets/oceanbg6.jpg);
+    background-size: 2000px;
+}
+
+.mainSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introGame {
+    font-size: 1.0em;
+    line-height: 1.5;
+    background: rgba(255, 255, 255, .2);
+    max-width: 35%;
+    text-align: center;
+    box-shadow:0 5px 15px rgba(0, 0, 0, .5);
+    border-radius: 5px;
+}
+
+.botaoStart {
+    display: flex;
+    justify-content: center;
+    margin: 10vh;
+  }
+
+.botaoStart a {
+    background: rgba(255, 255, 255, .2);
+    box-shadow:0 5px 15px rgba(0, 0, 0, .5);
+    padding: 11.5px 23px;
+    -webkit-border-radius: 17px;
+    border-radius: 8px 40px;
+    color: #03001a;
+    font-size: 14px;
+    text-decoration: none;
+    vertical-align: middle;
+   }
+
+   .botaoStart a:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+   }
+
+/* CSS para: página de escolha dos personagens */
+
+.personagensBg {
+    background-image: url(assets/oceanbg9.jpg);
+    
+}
+
+.personagensTitle {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 10vh;
+    font-size: 2em;
+}
+
+.mainPersonagens {
+    display: flex;
+    justify-content: space-around;
+    margin: 4%;
+    perspective: 1000px;
+}
+
+.boxPersonagens {
+    background: rgba(255, 255, 255, .2);
+    box-shadow:0 5px 15px rgba(0, 0, 0, .5);
+    width: 20vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-radius: 3px;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+.boxPersonagens:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+
+}
+
+.boxPersonagens img {
+    height: 20vh;
+    border-radius: 20px;
+}
+
+.botaoEscolher {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+  }
+  button {
+    border: none;
+    color: rgb(9, 39, 137);
+    font-size: 1.5em;
+    background: none;
+    border-radius: 8px 40px;
+  }
+  button:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    cursor: pointer;
+  }
