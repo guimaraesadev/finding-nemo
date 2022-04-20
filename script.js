@@ -13,9 +13,9 @@ while (true) {
 if (escolhaPersonagens == 1) {
     location = ('./nemo/firststep/marlin_e_nemo.html')
 } else if (escolhaPersonagens == 2) {
-    location = ('./princesa/primeira_etapa/escolha_princesa_um.html')
+    location = ()
 }
 else {
-    location = ('./luigi/primeira_etapa/escolha_luigi_um.html')
+    location = ()
 }
 }   
