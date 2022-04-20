@@ -63,6 +63,7 @@ header {
     font-size: 1.0em;
     text-decoration: none;
     vertical-align: middle;
+    text-decoration: none;
    }
 
    .botaoStart a:hover {
@@ -127,7 +128,7 @@ h1 {
   }
   button {
     border: none;
-    color: rgb(9, 39, 137);
+    color: rgb(0, 0, 0);
     font-size: 1.5em;
     background: none;
     border-radius: 8px 40px;
