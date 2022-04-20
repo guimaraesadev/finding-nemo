@@ -13,9 +13,9 @@ while (true) {
 if (escolhaPersonagens == 1) {
     location = ('./nemo/firststep/marlin_e_nemo.html')
 } else if (escolhaPersonagens == 2) {
-    location = ()
+    location = ('./')
 }
 else {
-    location = ()
+    location = ('./')
 }
 }   
