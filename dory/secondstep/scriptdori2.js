@@ -11,9 +11,9 @@ function decidirDorinha() {
         }
     }
     if (decidirDorinha == 1) {
-        location = ('./datedori.html')
+        location = ('../terceirostep/equipetrab.html')
     } else {
-        location = ('./gameover_nemodori.html')
+        location = ('./gameoverdesistir.html')
     }
 }
 
