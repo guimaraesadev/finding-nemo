@@ -1,18 +1,22 @@
-var pedirAjuda
+var locaNemo
 
-function pedirAjuda() {
-    pedirAjuda = prompt('1 Pedir ajuda; 2 Preferimos ir sozinhos!');
+function locaNemo() {
+    locaNemo = prompt('1 Ir para o SUL; 2 Ir para o NORTE!');
     while (true) {
-        if (pedirAjuda == 1 || pedirAjuda == 2) {
+        if (locaNemo == 1 || locaNemo == 2) {
             break
         } else {
             alert("Escolha inválida, digite 1 ou 2");
-            escolhaUm = prompt('1 Pedir ajuda; 2 Preferimos ir sozinhos!');
+            locaNemo = prompt('1 Ir para o SUL; 2 Ir para o NORTE!');
         }
     }
-    if (pedirAjuda == 1) {
-        location = ('./datedori.html')
+    if (locaNemo == 1) {
+        location = ('../finalstep/finalnorte.html')
     } else {
-        location = ('./gameoverdestiny.html')
+        location = ('../finalstep/finalsul.html')
     }
 }
+
+
+//NORTE = PERDEU
+//SUL = VENCEU

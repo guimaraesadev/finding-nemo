@@ -13,7 +13,7 @@ function escolhaUm() {
     if (escolhaUm == 1) {
         location = ('./nemosozinho.html')
     } else {
-        location = ('./gameover_nemo.html')
+        location = ('./gameover_nemo_1.html')
     }
 }
 
