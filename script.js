@@ -16,6 +16,6 @@ if (escolhaPersonagens == 1) {
     location = ('./dory/firststep/dori1.html')
 }
 else {
-    location = ('./')
+    location = ('./crush/firststep/crush1.html')
 }
 }   
