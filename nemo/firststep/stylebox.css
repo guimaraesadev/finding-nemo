@@ -59,3 +59,18 @@ main {
     transition: all 0.5s;
     color: #e46211;
 }
+
+
+@media only screen and (max-width: 574px){
+    .boxNemo img {
+        height: 10vh;
+        margin-bottom: 0vh;
+    }
+
+    .boxNemo {
+        height: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+}

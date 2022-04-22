@@ -145,6 +145,7 @@ h1 {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        font-size: 0.5em;
     }
 
     .mainPersonagens {
@@ -154,4 +155,19 @@ h1 {
     }
 
   }
+
+  @media only screen and (max-width: 574px){
+      .boxPersonagens img {
+          display: none;
+      }
+
+      .mainSection {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 0.2em;
+
+      }
+  }
+
   
