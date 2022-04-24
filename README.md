@@ -55,6 +55,5 @@ As tecnologias se dividem entre: <br>
 - Importando fontes e criando *@fontface*;
   
  ## Documentação; 
-  
-  
+ [Módulo 1 | Projeto Final | Documentação](https://bit.ly/projetofinalmódulo1)
 
